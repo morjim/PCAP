@@ -11,10 +11,10 @@ suma=0
 for i in fecha :
     suma+=int(i)
 
-if len(str(suma))>1:
-    for i in str(suma):
-        digito+=int(i)
-else:
+if suma < 10:
     digito=suma
+else:
+    for i in str(suma):
+        digito += int(i)
   
 print ("Tu dígito vital es :",digito)
