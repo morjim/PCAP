@@ -3,7 +3,7 @@ Crear una clase Empleado que modele trabajadores con un nombre y apellidos, un c
 '''
 
 class Empleado:
-    def __init__(self, nombre, apellidos, cargo, salario=1000):
+    def __init__(self, nombre, apellidos, cargo, salario=25000.50):
         self.nombre = nombre
         self.apellidos = apellidos
         self.cargo = cargo
